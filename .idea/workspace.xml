@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="" />
+    <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +56,7 @@
       <workItem from="1691253750906" duration="21000" />
       <workItem from="1691253790908" duration="6023000" />
       <workItem from="1691294158287" duration="12134000" />
-      <workItem from="1691316763676" duration="2660000" />
+      <workItem from="1691316763676" duration="2794000" />
     </task>
     <task id="LOCAL-00001" summary="从html字符串中提取数据，并转化为json文件">
       <created>1691319425427</created>
@@ -63,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691319425427</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="从html字符串中提取数据，并完成转化为json文件">
+      <created>1691319568830</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691319568830</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,13 +80,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="从html字符串中提取数据，并转化为json文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="从html字符串中提取数据，并转化为json文件" />
+    <MESSAGE value="从html字符串中提取数据，并完成转化为json文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="从html字符串中提取数据，并完成转化为json文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2" timestamp="1691319541362">
+    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2" timestamp="1691319581524">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1691319541362" />
+    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1691319581524" />
     <state x="229" y="0" key="DiffContextDialog" timestamp="1691319385450">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -86,10 +96,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1691319447112" />
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1691316764715">
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1691319694755">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1691316764715" />
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319694755" />
     <state x="562" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1691319557744">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
