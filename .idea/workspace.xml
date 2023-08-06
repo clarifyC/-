@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/清洗详情页数据.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/清洗详情页数据.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/爬取详情页.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/爬取详情页.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +59,9 @@
       <workItem from="1691253790908" duration="6023000" />
       <workItem from="1691294158287" duration="12134000" />
       <workItem from="1691316763676" duration="2794000" />
+      <workItem from="1691319694453" duration="119000" />
+      <workItem from="1691319870494" duration="191000" />
+      <workItem from="1691320072987" duration="4751000" />
     </task>
     <task id="LOCAL-00001" summary="从html字符串中提取数据，并转化为json文件">
       <created>1691319425427</created>
@@ -72,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691319568830</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="从html字符串中提取数据，并完成转化为json文件">
+      <created>1691319704656</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691319704656</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,29 +96,29 @@
     <option name="LAST_COMMIT_MESSAGE" value="从html字符串中提取数据，并完成转化为json文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2" timestamp="1691319581524">
+    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2" timestamp="1691319702751">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1691319581524" />
+    <state x="376" y="18" width="988" height="780" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1691319702751" />
     <state x="229" y="0" key="DiffContextDialog" timestamp="1691319385450">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="229" y="0" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319385450" />
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1691319447112">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1691319712773">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1691319447112" />
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1691319694755">
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1691319712773" />
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1691320073145">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319694755" />
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1691320073145" />
     <state x="562" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1691319557744">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="562" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1691319557744" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1691153141779">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1691320389750">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1691153141779" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1691320389750" />
   </component>
 </project>
