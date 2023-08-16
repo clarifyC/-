@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/机器学习/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/清洗详情页数据.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/清洗详情页数据.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬取详情页.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/爬取详情页.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,15 +14,19 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="8c62fe27-17a7-41ab-ab3d-32b3bd025234" />
+  <component name="JupyterTrust" id="8c62fe27-17a7-41ab-ab3d-32b3bd025234">
+    <option name="files">
+      <option value="机器学习\数据清洗.ipynb" />
+    </option>
+  </component>
   <component name="ProjectId" id="2TT8PEthO9L93LOw97XpJPQLsSh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -61,7 +65,8 @@
       <workItem from="1691316763676" duration="2794000" />
       <workItem from="1691319694453" duration="119000" />
       <workItem from="1691319870494" duration="191000" />
-      <workItem from="1691320072987" duration="4751000" />
+      <workItem from="1691320072987" duration="5432000" />
+      <workItem from="1692189964350" duration="11138000" />
     </task>
     <task id="LOCAL-00001" summary="从html字符串中提取数据，并转化为json文件">
       <created>1691319425427</created>
@@ -104,14 +109,18 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="229" y="0" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319385450" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1692209161440">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.816@0.0.1536.816" timestamp="1692209161440" />
     <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1691319712773">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1691319712773" />
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1691320073145">
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1692189964589">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1691320073145" />
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1692189964589" />
     <state x="562" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1691319557744">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
