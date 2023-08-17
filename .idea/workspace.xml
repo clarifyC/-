@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/util/ANN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/util/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/housing_pricing_model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/housing_pricing_model.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +39,43 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/机器学习/util" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pycharm files\housing_pricing_model\机器学习\util" />
+      <recent name="E:\pycharm files\housing_pricing_model\机器学习" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="housing_pricing_model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,6 +100,18 @@
       <workItem from="1691319870494" duration="191000" />
       <workItem from="1691320072987" duration="5432000" />
       <workItem from="1692189964350" duration="11138000" />
+      <workItem from="1692248418373" duration="1484000" />
+      <workItem from="1692249913229" duration="23000" />
+      <workItem from="1692249945883" duration="11517000" />
+      <workItem from="1692268481764" duration="11000" />
+      <workItem from="1692268503623" duration="965000" />
+      <workItem from="1692269509029" duration="2642000" />
+      <workItem from="1692272166114" duration="1165000" />
+      <workItem from="1692273342743" duration="265000" />
+      <workItem from="1692273635169" duration="250000" />
+      <workItem from="1692273896025" duration="595000" />
+      <workItem from="1692274628184" duration="3095000" />
+      <workItem from="1692282254414" duration="7865000" />
     </task>
     <task id="LOCAL-00001" summary="从html字符串中提取数据，并转化为json文件">
       <created>1691319425427</created>
@@ -109,6 +154,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="229" y="0" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319385450" />
+    <state width="482" height="688" key="GridCell.Tab.0.bottom" timestamp="1692249963453">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="482" height="688" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
+    <state width="482" height="688" key="GridCell.Tab.0.center" timestamp="1692249963453">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="482" height="688" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
+    <state width="482" height="688" key="GridCell.Tab.0.left" timestamp="1692249963453">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="482" height="688" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
+    <state width="482" height="688" key="GridCell.Tab.0.right" timestamp="1692249963453">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="482" height="688" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1692209161440">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -117,17 +178,21 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1691319712773" />
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1692189964589">
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1692268507348">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1692189964589" />
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1692268507348" />
     <state x="562" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1691319557744">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="562" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1691319557744" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1691320389750">
+    <state x="93" y="93" width="1350" height="630" key="dock-window-1" timestamp="1692271159348">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1691320389750" />
+    <state x="93" y="93" width="1350" height="630" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1692271159348" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1692271007818">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1692271007818" />
   </component>
 </project>
