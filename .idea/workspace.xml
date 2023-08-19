@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/获取经纬度.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/ANN模型.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/ANN目标编码.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scalar.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/scalar.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/train_data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/爬取详情页.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/爬取详情页.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/获取经纬度.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/获取经纬度.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +26,8 @@
   </component>
   <component name="JupyterTrust" id="8c62fe27-17a7-41ab-ab3d-32b3bd025234">
     <option name="files">
+      <option value="机器学习\ANN模型.ipynb" />
+      <option value="机器学习\ANN目标编码.ipynb" />
       <option value="机器学习\数据清洗.ipynb" />
       <option value="机器学习\获取经纬度.ipynb" />
     </option>
@@ -116,6 +117,8 @@
       <workItem from="1692282254414" duration="7865000" />
       <workItem from="1692368220260" duration="153000" />
       <workItem from="1692368383922" duration="12512000" />
+      <workItem from="1692444641346" duration="3285000" />
+      <workItem from="1692453411326" duration="14218000" />
     </task>
     <task id="LOCAL-00001" summary="从html字符串中提取数据，并转化为json文件">
       <created>1691319425427</created>
@@ -158,22 +161,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="229" y="0" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319385450" />
-    <state width="482" height="688" key="GridCell.Tab.0.bottom" timestamp="1692249963453">
+    <state width="482" height="688" key="GridCell.Tab.0.bottom" timestamp="1692453427519">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
-    <state width="482" height="688" key="GridCell.Tab.0.center" timestamp="1692249963453">
+    <state width="482" height="688" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1692453427519" />
+    <state width="482" height="688" key="GridCell.Tab.0.center" timestamp="1692453427519">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
-    <state width="482" height="688" key="GridCell.Tab.0.left" timestamp="1692249963453">
+    <state width="482" height="688" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1692453427519" />
+    <state width="482" height="688" key="GridCell.Tab.0.left" timestamp="1692453427518">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
-    <state width="482" height="688" key="GridCell.Tab.0.right" timestamp="1692249963453">
+    <state width="482" height="688" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1692453427518" />
+    <state width="482" height="688" key="GridCell.Tab.0.right" timestamp="1692453427519">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1692249963453" />
+    <state width="482" height="688" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1692453427519" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1692209161440">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -194,9 +197,9 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1692271159348" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1692271007818">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1692462489360">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1692271007818" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1692462489360" />
   </component>
 </project>
