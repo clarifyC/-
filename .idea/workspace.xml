@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/ANN模型.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/ANN目标编码.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/ANN模型函数式.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/KNN经纬度编码.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/机器学习/test_draw01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/数据清洗.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/获取经纬度.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/获取经纬度.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/ANN模型.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/ANN模型.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/ANN目标编码.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/ANN目标编码.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +28,9 @@
   <component name="JupyterTrust" id="8c62fe27-17a7-41ab-ab3d-32b3bd025234">
     <option name="files">
       <option value="机器学习\ANN模型.ipynb" />
+      <option value="机器学习\ANN模型函数式.ipynb" />
       <option value="机器学习\ANN目标编码.ipynb" />
+      <option value="机器学习\KNN经纬度编码.ipynb" />
       <option value="机器学习\数据清洗.ipynb" />
       <option value="机器学习\获取经纬度.ipynb" />
     </option>
@@ -79,6 +82,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_draw01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="housing_pricing_model" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习/test_draw01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test_draw01" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -119,6 +146,7 @@
       <workItem from="1692368383922" duration="12512000" />
       <workItem from="1692444641346" duration="3285000" />
       <workItem from="1692453411326" duration="14218000" />
+      <workItem from="1693123430192" duration="12172000" />
     </task>
     <task id="LOCAL-00001" summary="从html字符串中提取数据，并转化为json文件">
       <created>1691319425427</created>
@@ -161,22 +189,38 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="229" y="0" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319385450" />
-    <state width="482" height="688" key="GridCell.Tab.0.bottom" timestamp="1692453427519">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1693159624345">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1692453427519" />
-    <state width="482" height="688" key="GridCell.Tab.0.center" timestamp="1692453427519">
+    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1693159624345">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1692453427519" />
-    <state width="482" height="688" key="GridCell.Tab.0.left" timestamp="1692453427518">
+    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1693159624345">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1692453427518" />
-    <state width="482" height="688" key="GridCell.Tab.0.right" timestamp="1692453427519">
+    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1693159624345">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="482" height="688" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1692453427519" />
+    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1693159624345">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="1493" height="257" key="GridCell.Tab.1.center" timestamp="1693159624345">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="1493" height="257" key="GridCell.Tab.1.left" timestamp="1693159624345">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="1493" height="257" key="GridCell.Tab.1.right" timestamp="1693159624345">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1493" height="257" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1692209161440">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -197,9 +241,12 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1692271159348" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1692462489360">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1693128976169">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1692462489360" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1693128976169" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/housing_pricing_model$test_draw01.coverage" NAME="test_draw01 Coverage Results" MODIFIED="1693125767567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习" />
   </component>
 </project>
