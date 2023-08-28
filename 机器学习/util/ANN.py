@@ -135,9 +135,6 @@ class ANN():
             for i in range(batch_num):
                 dWlist, dBlist, loss = self.backward(Xbatchs[i], Ybatchs[i], Wlist, Blist)
                 iternum = iternum + 1
-                if (iternum % 5000 == 0):
-                    print(f'第{iternum}次迭代 loss={loss}')
-                    # print(dWlist)
 
                 for j in range(self.layer_number-1):
                     Wlist[j] = Wlist[j] + self.learning_rate * dWlist[self.layer_number - j - 2]
@@ -145,6 +142,13 @@ class ANN():
             self.Wlist = Wlist
             self.Blist = Blist
             zlist, alist, loss = self.forward(X, Y, Wlist, Blist)
+            if (e % 100 == 0):
+                loss = loss / len(Y)
+                print(f'第{e}次epoch loss={loss}')
+                if loss<0.001 and self.learning_rate>0.001:
+                    self.learning_rate = self.learning_rate/2
+                    print(f"learning_rate = {self.learning_rate}")
+                # print(dWlist)
         return Wlist, Blist, loss
 
 

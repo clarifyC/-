@@ -2,17 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e586e937-e44b-4f51-be4a-499a2889a508" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/机器学习/ANN模型函数式.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/KNN经纬度编码.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/机器学习/test_draw01.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/机器学习/ANN模型.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/ANN模型.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/机器学习/ANN目标编码.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/ANN目标编码.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/ANN模型函数式.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/ANN模型函数式.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习/util/ANN.py" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习/util/ANN.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,6 +98,9 @@
       <module name="housing_pricing_model" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -147,6 +162,9 @@
       <workItem from="1692444641346" duration="3285000" />
       <workItem from="1692453411326" duration="14218000" />
       <workItem from="1693123430192" duration="12172000" />
+      <workItem from="1693198560980" duration="9245000" />
+      <workItem from="1693212188302" duration="8885000" />
+      <workItem from="1693231592359" duration="9155000" />
     </task>
     <task id="LOCAL-00001" summary="从html字符串中提取数据，并转化为json文件">
       <created>1691319425427</created>
@@ -189,22 +207,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="229" y="0" key="DiffContextDialog/0.0.1536.816@0.0.1536.816" timestamp="1691319385450" />
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom" timestamp="1693159624345">
+    <state width="448" height="688" key="GridCell.Tab.0.bottom" timestamp="1693244140234">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
-    <state width="1493" height="257" key="GridCell.Tab.0.center" timestamp="1693159624345">
+    <state width="448" height="688" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1693244140234" />
+    <state width="448" height="688" key="GridCell.Tab.0.center" timestamp="1693244140234">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
-    <state width="1493" height="257" key="GridCell.Tab.0.left" timestamp="1693159624345">
+    <state width="448" height="688" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1693244140234" />
+    <state width="448" height="688" key="GridCell.Tab.0.left" timestamp="1693244140234">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
-    <state width="1493" height="257" key="GridCell.Tab.0.right" timestamp="1693159624345">
+    <state width="448" height="688" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1693244140234" />
+    <state width="448" height="688" key="GridCell.Tab.0.right" timestamp="1693244140234">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="257" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1693159624345" />
+    <state width="448" height="688" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1693244140234" />
     <state width="1493" height="257" key="GridCell.Tab.1.bottom" timestamp="1693159624345">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -229,10 +247,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1691319712773" />
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1692368386517">
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1693231617704">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1692368386517" />
+    <state x="449" y="232" key="com.intellij.ide.util.TipDialog/0.0.1536.816@0.0.1536.816" timestamp="1693231617704" />
     <state x="562" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1691319557744">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
@@ -241,10 +259,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="93" y="93" width="1350" height="630" key="dock-window-1/0.0.1536.816@0.0.1536.816" timestamp="1692271159348" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1693128976169">
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1693237063078">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1693128976169" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1693237063078" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/housing_pricing_model$test_draw01.coverage" NAME="test_draw01 Coverage Results" MODIFIED="1693125767567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/机器学习" />
